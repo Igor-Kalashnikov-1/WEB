@@ -1,0 +1,99 @@
+<DOCTYPE html>
+<html style="color:FF0025">
+  <!--Шапка сайта-->
+  <head>
+    <title>
+      Наш перший сайт
+    </title>
+    <meta chacset="utf-8">
+    <meta name="keywords" content="Ігорь, Калашніков">
+    <meta name="description" content="Тренувальний сайт">
+    <link rel="shortcut icon" href="Logo.png"/> <!-- ??? Має бути іконка-->
+    <style>
+      table{
+        color:blue
+      }
+    </style>
+    <link rel="stylesheet" href="style.css"/> <!-- Підключаємо файл зі стилями-->
+  </head>
+  <!--Тіло сайта-->
+  <body>
+    <!--Заголовки-->
+    <h1> ZAGOLOVOK </h1>
+    <h2> ZAGOLOVOK </h2>
+    <h3> ZAGOLOVOK </h3>
+    <h4 style="color:black"> ZAGOLOVOK </h4>
+    <h5> ZAGOLOVOK </h5>
+    <h6> ZAGOLOVOK </h6>
+    <!--Абзац-->
+    <p>Абзац</p>
+    <!--Таким може бути текст-->
+    <p>Text TextTextText  Text <br>
+    <b>Жирний текст</b> <br>
+    <em>Курсив</em> <br>
+    TextTextText</p>
+    <!--Таким може бути абзац тексту з мітками-->
+    <p id="label_1"> На цей текст будемо зсилатися нижче</p>
+
+    <!--Зсилки-->
+    <!--Ролік буде відкрито в тому самому вікні-->
+    <a href="https://www.youtube.com/watch?v=4jYYHaTwWvY">
+      Ролік1
+    </a>
+    <br>
+    <!--Ролік буде відкрито в новому вікні-->
+    <a href="https://www.youtube.com/watch?v=4jYYHaTwWvY"target="_blank">
+      Ролік2
+    </a>
+    <br>
+    <!--Зсилка на мітку всередині коду-->
+    <a href="#label_1">
+      Якорь на абзац з міткою label_1
+    </a>
+    <!--Маркірований список-->
+    <ul>
+      <li>Перший елемент списку</li>
+      <li>Другий елемент списку</li>
+      <li>Третій елемент списку</li>
+    </ul>
+
+    <!--горизонтальна лінія-->
+    <hr>
+    <!--таблиця-->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Фрукт</th>
+          <th>Кількість</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Яблоко</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Апельсин</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+        </tfoot>
+        <tr>
+          <td colspan="2"> Разом: 5</td> <!--Обєднує 2 комірки-->
+        </tr>
+        </tfoot>
+    </table>
+    <!--Рисунок-->
+    <img src="Logo.png" width="150"> <!--вказана ширина-->
+    <img src="vi1.png" height="100"> <!--вказана висота-->
+
+    <!-- Поля ввода. Для регістрації-->
+    <input type="text">
+    <input type="number">
+    <input type="month">
+
+
+
+  </body>
+
+</html>
